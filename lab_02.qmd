@@ -32,6 +32,59 @@ format:
 - [ ] Use a for loop to print the numbers 1 to 5.
 - [ ] Use a for loop to compute the mean of a numeric vector.
 
+```{r}
+print("hello world")
+```
+```{r}
+hello <- function(name) {
+  print(paste("hello",name))
+}
+
+hello("john")
+```
+```{r}
+answer <- 42
+print(answer)
+```
+```{r}
+numbers <- 1:5
+print(numbers)
+```
+```{r}
+numbers2 <- 1:1000
+```
+
+```{r}
+mat_model <- matrix(1:100, ncol=10, nrow=10)
+```
+
+```{r}
+df <- data.frame(
+    name = c("Anglo", "Bob", "Cam"),
+    age = c(10, 20, 30)
+)
+df
+```
+```{r}
+square <-
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Part 1b: Lists
 
@@ -187,6 +240,23 @@ make_square(5)
 .   .
 .....
 ```
+
+
+```{r}
+
+pic of lecture. 
+
+
+
+
+```
+
+
+
+
+
+
+
 
 - [ ] (Advanced): Look up *while loops* in `R`. Write a function that uses a while loop to simulate a particle undergoing a *random walk* in 1D. Starting from 0, in each iteration, the particle either takes a step $x \mapsto x + 1$ or $x \mapsto x - 1$, uniformly at random. Terminate the walk when the particle reaches either -10 or +10, and print where it ended up and how many steps it took.
 - [ ] (Advanced): Run your function from above multiple times. Display how often the particle ended at -10 and how often it ended at +10. Make sure that your results do not change if the worksheet is run multiple times!
